@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #3BA1CD;
+  --secondary-color: #1572B7;
+  --linear-gradient: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+  --background-gradient: linear-gradient(135deg, #000000 100%, #31A8DD00 0%);
+  --font-stack: 'Raleway', sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+}
+
+body {
+  font-family: var(--font-stack);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+    background: var(--background-gradient);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #33A8DB;
+  font: bold;
+}
+
+p {
+  color: #FFFFFF;
+  margin: 16px;
+  line-height: 1.6;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.modules-list .module {
+  color: #FFFFFF;
+}
+.modules-list .module span {
+  color: #33A8DB;
+  font-weight: bold;
+}
+
+#transform-world {
+  background-image: url("../images/woman-code.png");
+  padding: 32px 16px;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 363px;
+}
+
+footer {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+
